@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menú -->
+    <nav class="navbar">
+        <div class="logo" onclick="location.reload();">Sharp</div>
+        <ul class="nav-links">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://c.wallhere.com/photos/36/95/quote-152611.png!d" alt="Imagen 1">
+                <div class="text-overlay">
+                    <h2>Habilidades</h2>
+                    <p>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML"></span> HTML<br>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS"></span> CSS<br>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000" alt="C Language"></span> Lenguaje C<br>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript"></span> JavaScript<br>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=121463&format=png&color=000000" alt="PHP"></span> PHP<br>
+                        <span class="icon"><img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL"></span> MySQL<br>
+                        <span class="icon"><img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/phpmyadmin_93652.png" alt="PhpMyAdmin"></span> PhpMyAdmin
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.wallpapersden.com/image/download/black-minimalist-hex_bW1paWiUmZqaraWkpJRmbmdlrWZlbWU.jpg" alt="Imagen 2">
+                <div class="text-overlay">
+                    <h2>Biografía</h2>
+                    <p>Desarrollador Frontend con una pasión por el conocimiento y la creación de código. Busco oportunidades para aplicar mis habilidades y seguir aprendiendo en un entorno dinámico y desafiante.</p>
+                </div>
+            </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <section id="contact-form">
+        <h2>Contactate Conmigo</h2>
+        <form action="mailto:tuemail@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span>&copy; 2024 AgusDonoso Mi Portafolio</span>
+        <div class="footer-icons">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdBRvQHzmWgClhHkJBjDDGHgMZvlrdLcnfDvhbZjdkdfjJtnMTwFPPRfxTGzhrvwRZVLq"><img src="https://img.icons8.com/?size=100&id=9rAH3aJTe5Vu&format=png&color=000000" alt="Gmail">
+            <a href="https://www.linkedin.com/in/agusdonoso/"><img src="https://img.icons8.com/?size=100&id=tvG-nQ3s2hZL&format=png&color=000000" alt="LinkedIn">
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
